@@ -1,0 +1,15 @@
+RECIPE NAME: linux-s32
+VERSION: 5.10.41
+LICENSE: GPLv2
+FILES: Image--5.10.41-r0-s32g274ardb-20211121115436.bin modules--5.10.41-r0-s32g274ardb-20211121115436.tgz fsl-s32g274a-rdb--5.10.41-r0-s32g274ardb-20211121115436.dtb
+
+RECIPE NAME: u-boot-environment
+VERSION: 1.0+fslgit
+LICENSE: GPL-2.0
+FILES: u-boot-flashenv-sd-s32g274ardb-1.0+fslgit-r0.bin u-boot-flashenv-s32g274ardb-1.0+fslgit-r0.bin
+
+RECIPE NAME: u-boot-s32
+VERSION: 2020.04
+LICENSE: GPLv2 & BSD-3-Clause & BSD-2-Clause & LGPL-2.0 & LGPL-2.1
+FILES: u-boot-qspi-2020.04-r0.s32 u-boot-sdcard-2020.04-r0.s32
+
